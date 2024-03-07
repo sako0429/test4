@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Job</title>
+</head>
+<body>
+
+    
+
+    <input type="text" id="nameInput" placeholder="Name">
+    <input type="text" id="subnameInput" placeholder="Subname">
+    <input type="number" id="countityInput" placeholder="Count">
+    <input type="number" id="widthInput" placeholder="Width">
+    <input type="number" id="lengthInput" placeholder="Length">
+    <input type="number" id="inkInput" placeholder="Ink">
+    <input type="number" id="varnishInput" placeholder="Varnish">
+    <select id="jobType">
+        <option value="type1"></option>
+        <option value="type1">Type 1</option>
+        <option value="type2">Type 2</option>
+        <option value="type3">Type 3</option>
+    </select>
+    <label for="coverInput">Cover varnish</label>
+    <input type="checkbox" id="coverInput">
+
+    <button type="button" id="addJob" onclick="saveToJSON()">Save</button> 
+    <button type="reset" id="cancelJob" onclick="closeCurrentPage()">Cancel</button> 
+
+    <script src="script.js"></script>
+</body>
+</html>
